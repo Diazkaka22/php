@@ -7,13 +7,13 @@
     <title>Halaman <?= $data['judul']?></title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
   
   <div class="collapse navbar-collapse" id="navbarNav" style="
-  margin-left:8%;
+  margin-left:22%;
   ">
   <a class="navbar-brand" href="#" style="
-  margin-bottom: 2px;
+  margin-bottom: 6px;
   ">SMKN 2 TRENGGALEK</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
