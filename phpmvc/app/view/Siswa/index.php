@@ -1,10 +1,10 @@
 
 <div class="container mt-5">
-    <div class="row">
+    <div class="flex">
         <div class="col-6">
             <?php FLasher::flash(); ?>
             <h3>Daftar Siswa</h3>
-            <button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#modol">
+            <button type="button" class="btn btn-info mb-1" data-toggle="modal" data-target="#modol">
                     Tambah Siswa
             </button>
 
@@ -73,7 +73,7 @@
                         <center>
                         
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target="#moll<?=$blog['id']?>">
+                        <button type="button" class="btn btn-info mr-1" data-toggle="modal" data-target="#moll<?=$blog['id']?>">
                             Detail
                         </button>
 
@@ -119,7 +119,7 @@
                             </div>
                             </div>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-success mr-2" data-toggle="modal" data-target="#exampleModal<?=$blog['id']?>">
+                        <button type="button" class="btn btn-success mr-1" data-toggle="modal" data-target="#exampleModal<?=$blog['id']?>">
                             Ubah
                         </button>
 
@@ -172,7 +172,7 @@
                             </div>
                             </div>
 
-                            <a href="<?= BASE_URL; ?>/siswa/hapus/<?= $blog['id']?> " onclick="return confirm('Yakin?');" class="btn btn-danger mr-2">hapus</a>
+                            <a href="<?= BASE_URL; ?>/siswa/hapus/<?= $blog['id']?> " onclick="return confirm('Yakin?');" class="btn btn-danger mr-1">hapus</a>
 
                                             
                     </td>
